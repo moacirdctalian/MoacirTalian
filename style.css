@@ -55,8 +55,8 @@ p {
 
 /* Estilo para a foto de perfil */
 .foto-perfil {
-    width: 500px;          /* Largura da foto */
-    height: 500px;         /* Altura da foto */
+    width: 150px;          /* Largura da foto */
+    height: 150px;         /* Altura da foto */
     border-radius: 70%;    /* Deixa a foto perfeitamente redonda */
     object-fit: cover;     /* Garante que a imagem não fique distorcida */
     border: 4px solid #3498db; /* Cria uma borda azul bonita ao redor */
