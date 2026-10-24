@@ -53,6 +53,32 @@ p {
     background-color: #2980b9;
 }
 
+/* Seção de Redes Sociais */
+.redes-sociais {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.icone-social {
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #7f8c8d;
+}
+.icone-social:hover {
+    transform: translateY(-3px);
+}
+/* Cores no Hover */
+.icone-social.github:hover { color: #333333; }
+.icone-social.linkedin:hover { color: #0077b5; }
+.icone-social.instagram:hover { color: #e1306c; }
+.icone-social.whatsapp:hover { color: #25d366; }
+.icone-social.email:hover { color: #ea4335; }
+.icone-social.youtube:hover { color: #ff0000; }
+
+
+
 /* Estilo para a foto de perfil */
 .foto-perfil {
     width: 150px;          /* Largura da foto */
